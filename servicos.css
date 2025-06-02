@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ancizar Sans", sans-serif;
+}
+#menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+#menu a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: blue;
+}
+#menu {
+    background-color: aliceblue;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(173, 203, 229);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 30px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(173, 203, 229, 0.8);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+.servicos {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.servicos h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.servicos p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.servicos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.servicos li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.servicos li::before {
+  content: "✔";
+  color: #0077ff;
+  margin-right: 10px;
+}

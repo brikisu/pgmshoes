@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ancizar Sans", sans-serif;
+}
+#menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+#menu a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: blue;
+}
+#menu {
+    background-color: aliceblue;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(173, 203, 229);
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 30px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(173, 203, 229, 0.8);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+}
+.contato {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contato h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.contato-info p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.formulario {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.formulario textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.formulario button {
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.formulario button:hover {
+  background-color: #005ccc;
+}
