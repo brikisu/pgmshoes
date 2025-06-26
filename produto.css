@@ -90,3 +90,56 @@ body {
 main {
     flex: 1;
 }
+.escuro {
+    background-color: #595f6d;
+    color: #000000;
+}
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+#botao {
+    display: inline-block;           
+    margin: 5px ;             
+    padding: 16px 32px;             
+    background: #6583e9;            
+    color: black;                             
+    border: none;                  
+    border-radius: 8px;            
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);           
+    text-align: center;             
+}
+
+#botao:hover {
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+#cabecalho.escuro {
+    background-color: rgb(29, 76, 117);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#cabecalho.claro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(173, 203, 229);
+}
+#rodape.claro{
+    margin-top: auto;
+    width: 100%;
+    background-color: rgba(173, 203, 229, 1);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+#rodape.escuro {
+    background-color: rgb(29, 76, 117);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+}
