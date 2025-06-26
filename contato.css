@@ -53,21 +53,21 @@ footer {
     padding: 10px;
     z-index: 100;
 }
-.contato {
+#contato {
   max-width: 600px;
   margin: 60px auto;
   padding: 0 20px;
   font-family: 'Inter', sans-serif;
 }
 
-.contato h2 {
+#contato h2 {
   font-size: 26px;
   margin-bottom: 10px;
 }
 
-.contato-info p {
+#contato-info p {
   margin: 5px 0;
-  color: #444;
+  color: #000000;
 }
 
 .formulario {
@@ -102,4 +102,57 @@ footer {
 
 .formulario button:hover {
   background-color: #005ccc;
+}
+.escuro {
+    background-color: #595f6d;
+    color: #000000;
+}
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+#botao {
+    display: block;           
+    margin: 5px auto;             
+    padding: 16px 32px;             
+    background: #6583e9;            
+    color: black;                             
+    border: none;                  
+    border-radius: 8px;            
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);           
+    text-align: center;             
+}
+
+#botao:hover {
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+#cabecalho.escuro {
+    background-color: rgb(29, 76, 117);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#cabecalho.claro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(173, 203, 229);
+}
+#rodape.claro{
+    margin-top: auto;
+    width: 100%;
+    background-color: rgba(173, 203, 229, 1);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+#rodape.escuro {
+    background-color: rgb(29, 76, 117);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
 }
