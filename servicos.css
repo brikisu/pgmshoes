@@ -66,7 +66,7 @@ footer {
 }
 
 .servicos p {
-  color: #555;
+  color: #000000;
   font-size: 16px;
   margin-bottom: 25px;
 }
@@ -79,11 +79,63 @@ footer {
 .servicos li {
   margin-bottom: 15px;
   line-height: 1.6;
-  color: #333;
+  color: #000000;
 }
 
 .servicos li::before {
   content: "✔";
   color: #0077ff;
   margin-right: 10px;
+}
+.escuro {
+    background-color: #595f6d;
+    color: #000000;
+}
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+#botao {
+    display: block;
+    margin: 5px auto;
+    padding: 16px 32px;
+    background: #6583e9;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#botao:hover {
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+#cabecalho.escuro {
+    background-color: rgb(29, 76, 117);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#cabecalho.claro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(173, 203, 229);
+}
+#rodape.claro{
+    margin-top: auto;
+    width: 100%;
+    background-color: rgba(173, 203, 229, 1);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+#rodape.escuro {
+    background-color: rgb(29, 76, 117);
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
 }
