@@ -12,7 +12,7 @@ botao.addEventListener('click', () => {
         cabecalho.classList.add('claro');
         rodape.classList.remove('escuro');
         rodape.classList.add('claro');
-
+        alert('Tema claro ativado');
     }
     else {
         corpo.classList.remove('claro');
@@ -21,7 +21,7 @@ botao.addEventListener('click', () => {
         cabecalho.classList.add('escuro');
         rodape.classList.remove('claro');
         rodape.classList.add('escuro');
-
+        alert('Tema escuro ativado');
     }
     escuro = !escuro;
 });
